@@ -1,0 +1,16 @@
+{
+    "listen": "0.0.0.0:8080",
+    "privatekey": "cert/ezb_adm.key",
+    "publiccert": "cert/ezb_adm.crt",
+    "cacert": "cert/ca.crt",
+    "servicename": "ezb_adm",
+    "servicefullname": "Easy Bastion admin console",
+    "ezb_db": "https://CHAVERS-DESK:5501/",
+    "ezb_srv": "http://CHAVERS-DESK:5505/",
+    "log": {
+        "loglevel": "Debug",
+        "maxsize": 10,
+        "maxbackups": 5,
+        "maxage": 180
+    }
+}
